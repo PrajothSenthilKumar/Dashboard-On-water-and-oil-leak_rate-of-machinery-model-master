@@ -13,7 +13,7 @@
    ```
 
 4. **Install AWS CLI**
-   > *Note: unzip is required before installing AWS CLI.*
+   > *Note: unzip is required before installing AWS CLI. apt install unzip prerequisite step needed since unzip won’t exist*
 
    Install `unzip`:
    ```bash
@@ -38,7 +38,7 @@
    - Select the **repo** scope
    - Click **Generate new token (classic)**
 
-7. Generate an SSH key:
+7. In the home folder Generate an SSH key:
    ```bash
    ssh-keygen -t ed25519 -C "<github-username>"
    ```
